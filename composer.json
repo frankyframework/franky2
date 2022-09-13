@@ -1,6 +1,6 @@
 {
-    "name": "frankyframework/franky-skeleton-application",
-    "description": "Skeleton Application for Franky Framework applications",
+    "name": "frankyframework/franky2",
+    "description": "Skeleton Application for Franky 2 Framework applications",
     "type": "project",
     "version": "2.0.0",
     "license": "MIT",
