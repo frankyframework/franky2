@@ -207,7 +207,7 @@ $.fn.imagesresize = function(width){
     })
 }
 
-var getFormatoPrecio = function(number, fractional=true,simbol = true) {
+var getFormatoPrecio = function(number,fractional=true, simbol ='',abr='') {
 
     if(!fractional || fractional.length == 0)
     {
@@ -234,7 +234,7 @@ var getFormatoPrecio = function(number, fractional=true,simbol = true) {
         }
     }
     number = number.toString().split(".");
-    return (simbol ? '$MXN ' : '')+number[0]+((number[1]) ? '.<sup>'+number[1]+'</sup>': '');
+    return (simbol ? simbol : '')+number[0]+((number[1]) ? '.<sup>'+number[1]+'</sup>': '')+' '+abr;
 };
 
 var importarScript = function(nombre, callback) {
