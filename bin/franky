@@ -8,8 +8,6 @@ $_SERVER['DOCUMENT_ROOT'] = PROJECT_DIR;
 require(PROJECT_DIR."/modulos/base/loads/init.php");
 
 
-$MySession->SetVar('nivel',NIVEL_USERDEVELOPER);
-
 $File = new \Franky\Filesystem\File;
 
 $modulos = $File->getFiles(PROJECT_DIR."modulos","dir");

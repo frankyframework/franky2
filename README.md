@@ -1,5 +1,5 @@
 # franky-skeleton-application
-Aplicacion inicial de proyecto franky
+Aplicacion inicial de proyecto franky 2
 
 
 # Convertir a imagenes de próxima generación
