@@ -20,14 +20,17 @@
         "frankyframework/franky-schema": "1.0.x-dev",
         "frankyframework/base":"2.0.x-dev",
         "frankyframework/blog":"2.0.x-dev",
-        "frankyframework/catalog":"2.0.x-dev",
+        "frankyframework/catalog":"3.0.x-dev",
         "frankyframework/carrusel":"2.0.x-dev",
         "frankyframework/calificaciones":"2.0.x-dev",
         "frankyframework/developer":"2.0.x-dev",
         "frankyframework/galeria":"2.0.x-dev",
         "frankyframework/seo":"2.0.x-dev",
         "frankyframework/sliders":"2.0.x-dev",
-        "frankyframework/wishlist":"2.0.x-dev"
+        "frankyframework/wishlist":"2.0.x-dev",
+        "frankyframework/ecommerce":"2.0.x-dev",
+        "frankyframework/freeshipping":"2.0.x-dev",
+        "frankyframework/paypal": "1.0.x-dev"
     },
     "require-dev": {
         "phpunit/phpunit": "^11.4.3"
