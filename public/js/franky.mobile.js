@@ -88,6 +88,9 @@ $.fn.buttonDelete = function(element)
     $(element).each(function(index,val)
     {
         var id = $(this).attr("id");
+        if(!id) {
+            id = $(this).attr("data-id");
+        }
 
         if(id.search("{{") == -1)
         {
