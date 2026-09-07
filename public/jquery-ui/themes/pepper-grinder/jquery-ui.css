@@ -901,7 +901,7 @@ body .ui-tooltip {
 }
 .ui-widget-content {
 	border: 1px solid #d9d6c4;
-	background: #eceadf url("images/ui-bg_fine-grain_10_eceadf_60x60.png") 50% 50% repeat;
+	background: #eceadf url("/public/jquery-ui/themes/pepper-grinder/images/ui-bg_fine-grain_10_eceadf_60x60.png") 50% 50% repeat;
 	color: #1f1f1f;
 }
 .ui-widget-content a {
@@ -909,7 +909,7 @@ body .ui-tooltip {
 }
 .ui-widget-header {
 	border: 1px solid #d4d1bf;
-	background: #ffffff url("images/ui-bg_fine-grain_15_ffffff_60x60.png") 50% 50% repeat;
+	background: #ffffff url("/public/jquery-ui/themes/pepper-grinder/images/ui-bg_fine-grain_15_ffffff_60x60.png") 50% 50% repeat;
 	color: #453821;
 	font-weight: bold;
 }
@@ -929,7 +929,7 @@ works properly when clicked or hovered */
 html .ui-button.ui-state-disabled:hover,
 html .ui-button.ui-state-disabled:active {
 	border: 1px solid #cbc7bd;
-	background: #f8f7f6 url("images/ui-bg_fine-grain_10_f8f7f6_60x60.png") 50% 50% repeat;
+	background: #f8f7f6 url("/public/jquery-ui/themes/pepper-grinder/images/ui-bg_fine-grain_10_f8f7f6_60x60.png") 50% 50% repeat;
 	font-weight: bold;
 	color: #654b24;
 }
@@ -952,7 +952,7 @@ a:visited.ui-button,
 .ui-button:hover,
 .ui-button:focus {
 	border: 1px solid #654b24;
-	background: #654b24 url("images/ui-bg_fine-grain_65_654b24_60x60.png") 50% 50% repeat;
+	background: #654b24 url("/public/jquery-ui/themes/pepper-grinder/images/ui-bg_fine-grain_65_654b24_60x60.png") 50% 50% repeat;
 	font-weight: bold;
 	color: #ffffff;
 }
@@ -980,7 +980,7 @@ a.ui-button:active,
 .ui-button:active,
 .ui-button.ui-state-active:hover {
 	border: 1px solid #d9d6c4;
-	background: #eceadf url("images/ui-bg_fine-grain_15_eceadf_60x60.png") 50% 50% repeat;
+	background: #eceadf url("/public/jquery-ui/themes/pepper-grinder/images/ui-bg_fine-grain_15_eceadf_60x60.png") 50% 50% repeat;
 	font-weight: bold;
 	color: #140f06;
 }
@@ -1002,7 +1002,7 @@ a.ui-button:active,
 .ui-widget-content .ui-state-highlight,
 .ui-widget-header .ui-state-highlight {
 	border: 1px solid #b2a266;
-	background: #f7f3de url("images/ui-bg_fine-grain_15_f7f3de_60x60.png") 50% 50% repeat;
+	background: #f7f3de url("/public/jquery-ui/themes/pepper-grinder/images/ui-bg_fine-grain_15_f7f3de_60x60.png") 50% 50% repeat;
 	color: #3a3427;
 }
 .ui-state-checked {
@@ -1018,7 +1018,7 @@ a.ui-button:active,
 .ui-widget-content .ui-state-error,
 .ui-widget-header .ui-state-error {
 	border: 1px solid #681818;
-	background: #b83400 url("images/ui-bg_fine-grain_68_b83400_60x60.png") 50% 50% repeat;
+	background: #b83400 url("/public/jquery-ui/themes/pepper-grinder/images/ui-bg_fine-grain_68_b83400_60x60.png") 50% 50% repeat;
 	color: #ffffff;
 }
 .ui-state-error a,
@@ -1064,31 +1064,31 @@ a.ui-button:active,
 }
 .ui-icon,
 .ui-widget-content .ui-icon {
-	background-image: url("images/ui-icons_222222_256x240.png");
+	background-image: url("/public/jquery-ui/themes/pepper-grinder/images/ui-icons_222222_256x240.png");
 }
 .ui-widget-header .ui-icon {
-	background-image: url("images/ui-icons_b83400_256x240.png");
+	background-image: url("/public/jquery-ui/themes/pepper-grinder/images/ui-icons_b83400_256x240.png");
 }
 .ui-state-hover .ui-icon,
 .ui-state-focus .ui-icon,
 .ui-button:hover .ui-icon,
 .ui-button:focus .ui-icon {
-	background-image: url("images/ui-icons_ffffff_256x240.png");
+	background-image: url("/public/jquery-ui/themes/pepper-grinder/images/ui-icons_ffffff_256x240.png");
 }
 .ui-state-active .ui-icon,
 .ui-button:active .ui-icon {
-	background-image: url("images/ui-icons_8c291d_256x240.png");
+	background-image: url("/public/jquery-ui/themes/pepper-grinder/images/ui-icons_8c291d_256x240.png");
 }
 .ui-state-highlight .ui-icon,
 .ui-button .ui-state-highlight.ui-icon {
-	background-image: url("images/ui-icons_3572ac_256x240.png");
+	background-image: url("/public/jquery-ui/themes/pepper-grinder/images/ui-icons_3572ac_256x240.png");
 }
 .ui-state-error .ui-icon,
 .ui-state-error-text .ui-icon {
-	background-image: url("images/ui-icons_fbdb93_256x240.png");
+	background-image: url("/public/jquery-ui/themes/pepper-grinder/images/ui-icons_fbdb93_256x240.png");
 }
 .ui-button .ui-icon {
-	background-image: url("images/ui-icons_b83400_256x240.png");
+	background-image: url("/public/jquery-ui/themes/pepper-grinder/images/ui-icons_b83400_256x240.png");
 }
 
 /* positioning */
@@ -1301,7 +1301,7 @@ a.ui-button:active,
 
 /* Overlays */
 .ui-widget-overlay {
-	background: #6e4f1c url("images/ui-bg_diagonal-maze_20_6e4f1c_10x10.png") 50% 50% repeat;
+	background: #6e4f1c url("/public/jquery-ui/themes/pepper-grinder/images/ui-bg_diagonal-maze_20_6e4f1c_10x10.png") 50% 50% repeat;
 	opacity: .6;
 	filter: Alpha(Opacity=60); /* support: IE8 */
 }

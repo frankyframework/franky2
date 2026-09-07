@@ -901,7 +901,7 @@ body .ui-tooltip {
 }
 .ui-widget-content {
 	border: 1px solid #e0cfc2;
-	background: #f4f0ec url("images/ui-bg_inset-soft_100_f4f0ec_1x100.png") 50% bottom repeat-x;
+	background: #f4f0ec url("/public/jquery-ui/themes/humanity/ui-bg_inset-soft_100_f4f0ec_1x100.png") 50% bottom repeat-x;
 	color: #1e1b1d;
 }
 .ui-widget-content a {
@@ -909,7 +909,7 @@ body .ui-tooltip {
 }
 .ui-widget-header {
 	border: 1px solid #d49768;
-	background: #cb842e url("images/ui-bg_glass_25_cb842e_1x400.png") 50% 50% repeat-x;
+	background: #cb842e url("/public/jquery-ui/themes/humanity/ui-bg_glass_25_cb842e_1x400.png") 50% 50% repeat-x;
 	color: #ffffff;
 	font-weight: bold;
 }
@@ -929,7 +929,7 @@ works properly when clicked or hovered */
 html .ui-button.ui-state-disabled:hover,
 html .ui-button.ui-state-disabled:active {
 	border: 1px solid #cdc3b7;
-	background: #ede4d4 url("images/ui-bg_glass_70_ede4d4_1x400.png") 50% 50% repeat-x;
+	background: #ede4d4 url("/public/jquery-ui/themes/humanity/ui-bg_glass_70_ede4d4_1x400.png") 50% 50% repeat-x;
 	font-weight: normal;
 	color: #3f3731;
 }
@@ -952,7 +952,7 @@ a:visited.ui-button,
 .ui-button:hover,
 .ui-button:focus {
 	border: 1px solid #f5ad66;
-	background: #f5f0e5 url("images/ui-bg_glass_100_f5f0e5_1x400.png") 50% 50% repeat-x;
+	background: #f5f0e5 url("/public/jquery-ui/themes/humanity/ui-bg_glass_100_f5f0e5_1x400.png") 50% 50% repeat-x;
 	font-weight: normal;
 	color: #a46313;
 }
@@ -980,7 +980,7 @@ a.ui-button:active,
 .ui-button:active,
 .ui-button.ui-state-active:hover {
 	border: 1px solid #e0cfc2;
-	background: #f4f0ec url("images/ui-bg_highlight-hard_100_f4f0ec_1x100.png") 50% 50% repeat-x;
+	background: #f4f0ec url("/public/jquery-ui/themes/humanity/ui-bg_highlight-hard_100_f4f0ec_1x100.png") 50% 50% repeat-x;
 	font-weight: normal;
 	color: #b85700;
 }
@@ -1002,7 +1002,7 @@ a.ui-button:active,
 .ui-widget-content .ui-state-highlight,
 .ui-widget-header .ui-state-highlight {
 	border: 1px solid #d9bb73;
-	background: #f5f5b5 url("images/ui-bg_highlight-hard_75_f5f5b5_1x100.png") 50% top repeat-x;
+	background: #f5f5b5 url("/public/jquery-ui/themes/humanity/ui-bg_highlight-hard_75_f5f5b5_1x100.png") 50% top repeat-x;
 	color: #060200;
 }
 .ui-state-checked {
@@ -1018,7 +1018,7 @@ a.ui-button:active,
 .ui-widget-content .ui-state-error,
 .ui-widget-header .ui-state-error {
 	border: 1px solid #f8893f;
-	background: #fee4bd url("images/ui-bg_highlight-hard_65_fee4bd_1x100.png") 50% top repeat-x;
+	background: #fee4bd url("/public/jquery-ui/themes/humanity/ui-bg_highlight-hard_65_fee4bd_1x100.png") 50% top repeat-x;
 	color: #592003;
 }
 .ui-state-error a,
@@ -1064,31 +1064,31 @@ a.ui-button:active,
 }
 .ui-icon,
 .ui-widget-content .ui-icon {
-	background-image: url("images/ui-icons_c47a23_256x240.png");
+	background-image: url("/public/jquery-ui/themes/humanity/images/ui-icons_c47a23_256x240.png");
 }
 .ui-widget-header .ui-icon {
-	background-image: url("images/ui-icons_ffffff_256x240.png");
+	background-image: url("/public/jquery-ui/themes/humanity/images/ui-icons_ffffff_256x240.png");
 }
 .ui-state-hover .ui-icon,
 .ui-state-focus .ui-icon,
 .ui-button:hover .ui-icon,
 .ui-button:focus .ui-icon {
-	background-image: url("images/ui-icons_f08000_256x240.png");
+	background-image: url("/public/jquery-ui/themes/humanity/images/ui-icons_f08000_256x240.png");
 }
 .ui-state-active .ui-icon,
 .ui-button:active .ui-icon {
-	background-image: url("images/ui-icons_f35f07_256x240.png");
+	background-image: url("/public/jquery-ui/themes/humanity/images/ui-icons_f35f07_256x240.png");
 }
 .ui-state-highlight .ui-icon,
 .ui-button .ui-state-highlight.ui-icon {
-	background-image: url("images/ui-icons_cb672b_256x240.png");
+	background-image: url("/public/jquery-ui/themes/humanity/images/ui-icons_cb672b_256x240.png");
 }
 .ui-state-error .ui-icon,
 .ui-state-error-text .ui-icon {
-	background-image: url("images/ui-icons_ff7519_256x240.png");
+	background-image: url("/public/jquery-ui/themes/humanity/images/ui-icons_ff7519_256x240.png");
 }
 .ui-button .ui-icon {
-	background-image: url("images/ui-icons_f08000_256x240.png");
+	background-image: url("/public/jquery-ui/themes/humanity/images/ui-icons_f08000_256x240.png");
 }
 
 /* positioning */
