@@ -11,11 +11,13 @@ module.exports = function(grunt) {
           optimization: 2
         },
         files: { // destination file and source file
-            "modulos/base/web/theme1/css/style.css": "modulos/base/web/theme1/less/style.less",
-            "modulos/base/web/default/css/style.css": "modulos/base/web/base/less/style.less",
+          "modulos/base/web/theme1/css/style.css": "modulos/base/web/theme1/less/style.less",
+          "modulos/base/web/default/css/style.css": "modulos/base/web/base/less/style.less",
           "modulos/base/web/base/css/style.css": "modulos/base/web/base/less/style.less",
           "modulos/base/web/base/css/grid.css": "modulos/base/web/base/less/grid.less", 
           "modulos/base/web/base/css/panel.css": "modulos/base/web/base/less/panel.less", 
+          "modulos/base/web/default/css/panel.css": "modulos/base/web/default/less/panel.less", 
+          "modulos/base/web/theme1/css/panel.css": "modulos/base/web/theme1/less/panel.less", 
           "modulos/ecommerce/web/css/cart.css": "modulos/ecommerce/web/less/cart.less", 
           "modulos/catalog/web/css/catalog.css": "modulos/catalog/web/less/catalog.less", 
           "modulos/blog/web/css/blog.css": "modulos/blog/web/less/blog.less", 
