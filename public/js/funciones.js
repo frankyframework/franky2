@@ -168,7 +168,8 @@ _alert = function(msg,title)
     $(function() {
         $( confirm ).dialog({
             resizable: false,
-            height:140,
+            height: "auto", 
+            minHeight: 250,  
             modal: true,
             buttons: {
                 "Aceptar": function() {

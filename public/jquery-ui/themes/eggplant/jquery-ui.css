@@ -901,7 +901,7 @@ body .ui-tooltip {
 }
 .ui-widget-content {
 	border: 1px solid #7e7783;
-	background: #3d3644 url("/public/jquery-ui/themes/eggplant/ui-bg_gloss-wave_30_3d3644_500x100.png") 50% top repeat-x;
+	background: #3d3644 url("/public/jquery-ui/themes/eggplant/images/ui-bg_gloss-wave_30_3d3644_500x100.png") 50% top repeat-x;
 	color: #ffffff;
 }
 .ui-widget-content a {
@@ -909,7 +909,7 @@ body .ui-tooltip {
 }
 .ui-widget-header {
 	border: 1px solid #231d2b;
-	background: #30273a url("/public/jquery-ui/themes/eggplant/ui-bg_highlight-soft_25_30273a_1x100.png") 50% 50% repeat-x;
+	background: #30273a url("/public/jquery-ui/themes/eggplant/images/ui-bg_highlight-soft_25_30273a_1x100.png") 50% 50% repeat-x;
 	color: #ffffff;
 	font-weight: bold;
 }
@@ -929,7 +929,7 @@ works properly when clicked or hovered */
 html .ui-button.ui-state-disabled:hover,
 html .ui-button.ui-state-disabled:active {
 	border: 1px solid #dcd9de;
-	background: #dcd9de url("/public/jquery-ui/themes/eggplant/ui-bg_highlight-soft_100_dcd9de_1x100.png") 50% 50% repeat-x;
+	background: #dcd9de url("/public/jquery-ui/themes/eggplant/images/ui-bg_highlight-soft_100_dcd9de_1x100.png") 50% 50% repeat-x;
 	font-weight: bold;
 	color: #665874;
 }
@@ -952,7 +952,7 @@ a:visited.ui-button,
 .ui-button:hover,
 .ui-button:focus {
 	border: 1px solid #d1c5d8;
-	background: #eae6ea url("/public/jquery-ui/themes/eggplant/ui-bg_highlight-soft_100_eae6ea_1x100.png") 50% 50% repeat-x;
+	background: #eae6ea url("/public/jquery-ui/themes/eggplant/images/ui-bg_highlight-soft_100_eae6ea_1x100.png") 50% 50% repeat-x;
 	font-weight: bold;
 	color: #734d99;
 }
@@ -980,7 +980,7 @@ a.ui-button:active,
 .ui-button:active,
 .ui-button.ui-state-active:hover {
 	border: 1px solid #7e7783;
-	background: #5f5964 url("/public/jquery-ui/themes/eggplant/ui-bg_highlight-soft_45_5f5964_1x100.png") 50% 50% repeat-x;
+	background: #5f5964 url("/public/jquery-ui/themes/eggplant/images/ui-bg_highlight-soft_45_5f5964_1x100.png") 50% 50% repeat-x;
 	font-weight: bold;
 	color: #ffffff;
 }
