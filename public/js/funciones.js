@@ -92,29 +92,6 @@ $.fn.newplaceholder = function(){
 };
 
 
-$.fn.imgLoadAlive = function()
-{
-      window_top = $(window).scrollTop();
-      $('img[data-alive]').each(function(index,val)
-      {
-            if($(this).attr('data-alive').length > 0 )
-            {
-                imagen = $(this).offset();
-
-                if (window_top > (imagen.top - $(window).height() - 100)) {
-
-                    $(this).attr('src',$(this).attr('data-alive'));
-                    $(this).attr('data-alive','');
-                    $(this).hide();
-                    $(this).fadeIn( "slow" );
-                  }
-
-            }
-      });
-
-}
-
-
 $.fn.textToIcon = function() {
       $(this).each(function(index,value){
 
