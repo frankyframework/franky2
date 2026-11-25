@@ -1,6 +1,6 @@
 <?php
-define('PROJECT_DIR',$_SERVER["DOCUMENT_ROOT"]);
-require(PROJECT_DIR."/modulos/base/loads/init.php");
+define('PROJECT_DIR', dirname(__DIR__).'/../');
+require(PROJECT_DIR."modulos/base/loads/init.php");
 
 $MyAjax = new \Franky\Core\Ajax();
 

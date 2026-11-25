@@ -4,7 +4,7 @@ function peticion_ajax(method,query,funcion,function_vars,area_loader)
     console.log(area_loader);
     $.ajax({
             type: method.toUpperCase(),
-            url: "public/ajax/ajax.php",
+            url: "ajax/ajax.php",
             data: query,
             cache: false,
             beforeSend: function(){

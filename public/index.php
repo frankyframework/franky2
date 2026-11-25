@@ -1,5 +1,5 @@
 <?php
-define('PROJECT_DIR',$_SERVER["DOCUMENT_ROOT"]);
+define('PROJECT_DIR', dirname(__DIR__));
 require(PROJECT_DIR."/modulos/base/loads/init.php");
 
 $controller = $MyFrankyMonster->MyPHPFile();
