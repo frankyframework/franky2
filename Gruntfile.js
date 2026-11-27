@@ -49,6 +49,7 @@ module.exports = function(grunt) {
           [`${staticRoot}/ecommerce/web/css/cart.css`]: "modulos/ecommerce/web/less/cart.less",
           [`${staticRoot}/catalog/web/css/catalog.css`]: "modulos/catalog/web/less/catalog.less",
           [`${staticRoot}/blog/web/css/blog.css`]: "modulos/blog/web/less/blog.less",
+          [`${staticRoot}/calificaciones/web/css/calificaciones.css`]: "modulos/calificaciones/web/less/calificaciones.less",
           [`${staticRoot}/sliders/web/css/sliders.css`]: "modulos/sliders/web/less/sliders.less",
         }
       }
@@ -62,6 +63,7 @@ module.exports = function(grunt) {
             'modulos/ecommerce/web/less/*.less', 
             'modulos/catalog/web/less/*.less', 
             'modulos/blog/web/less/*.less', 
+            'modulos/calificaciones/web/less/*.less',
             'modulos/sliders/web/less/*.less'],
             tasks: ['less'],
             options: {
@@ -79,6 +81,7 @@ module.exports = function(grunt) {
                       `${staticRoot}/catalog/web/css/*.css`,
                       `${staticRoot}/ecommerce/web/css/*.css`,
                       `${staticRoot}/blog/web/css/*.css`,
+                      `${staticRoot}/calificaciones/web/css/*.css`,
                       'modulos/base/diseno/*.phtml'
                   ]
               },
